@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+	font-family: Courier;
+}
+/* ---- HEADER ----- */
+#header-nav {
+	background-color: #66ccff;
+	border-radius: 0;
+	border: 0;
+	height: 160px;
+	position: relative;
+}
+h1 {
+	position: absolute;
+	bottom: 0;
+	color: black;
+}
+#logo {
+	width: 221px;
+	height: 101px;
+	position: absolute;
+	top: 5px;
+}
+/* ---- MAIN ----- */
+body {
+	background-color:  #e6ffff;
+}
+.row {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+#menu-tile, #choppe-tile, #map-tile {
+	margin-bottom: 20px;
+	width: 500px;
+	clear: both;
+}
+
+#menu-tile:hover, #choppe-tile:hover, #map-tile:hover {
+	box-shadow: 1px 5px 8px 5px #66ccff;
+}
+#menu-tile {
+	background: url('../images/xburger.png') no-repeat;
+    height: 500px;
+}
+#choppe-tile {
+	background: url('../images/choppe.jpg') no-repeat;
+	height: 500px;
+}
+span {
+	background-color: #99ff99;
+	color: black;
+	font-size: 18px;
+	position: absolute;
+	left: 15px;
+	bottom: 20px;
+	padding: 8px;
+}
+#footer {
+	background-color: #66ccff;
+	font-size: 20px;
+}
+/* ------------------- MEDIUM AND LARGE DEVICES ----------------------- */
+/*@media (min-width: 991px) {
+
+}*/
